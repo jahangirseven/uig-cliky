@@ -1,0 +1,13 @@
+.blogposts_section{
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postlist_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}

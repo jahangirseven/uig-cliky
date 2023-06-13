@@ -1,0 +1,39 @@
+.subscription_box{
+    width: 100%;
+    height: 200px;
+    padding:  0 0 90px 0;
+    border-top: 1px solid rgba(238, 238, 238, 0.16);
+ }
+
+.subscription_box__self{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5d5dff;
+
+}
+
+.left_slot , .right_slot{
+    width: 50%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right_slot{
+    width: 45%;
+}
+
+
+.left_slot h1{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0 ;
+}
+
+.right_slot form{
+    display: flex;
+}

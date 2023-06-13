@@ -1,0 +1,85 @@
+.posts_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0 20px 0;
+}
+
+.posts_container >div{
+    margin-bottom: 4rem;
+}
+/* Single post page */
+
+.post_meta{
+    width: 940px;
+    height: 90px;
+    position: relative;
+    top: -45px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #1b1b1b;
+}
+
+.meta_leftSlot{
+    display: flex;
+    align-items: center;
+}
+.postblock_meta{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    padding: 10px 0;
+}
+
+.meta_date{
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.359);
+    position: relative; 
+    padding-left: 30px;
+    margin-left: 15px;
+    font-size: .9rem;
+}
+
+ .meta_date::after{
+    content: '';
+    width:20px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top:10px;
+    background-color: rgba(255, 255, 255, 0.17);
+}
+
+
+.meta_author{
+    display: flex;
+    align-items: center;
+}
+
+.meta_author img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+
+
+.meta_rightSlot{
+    display: flex;
+    align-items: center;
+   }
+   .single_category{
+       display: inline-block;
+       background-color: #303030;
+       margin: 0 3px;
+       padding: 2px 10px;
+       border-radius: 30px;
+       font-size: .8rem;
+   
+   }

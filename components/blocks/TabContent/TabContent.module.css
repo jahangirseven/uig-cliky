@@ -1,0 +1,23 @@
+.tab_buttons{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-top:50px
+}
+
+.single_tab{
+    padding: 5px 15px;
+    background: rgba(252, 252, 252, 0.062);
+    border: 1px solid rgba(238, 238, 238, 0.066);
+    margin: 0 5px;
+    border-radius: 50px;
+    font-size: .9rem;
+    opacity: .8;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.single_tab:hover{
+    transition: 200ms;
+    opacity: 1;
+}

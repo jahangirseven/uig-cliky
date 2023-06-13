@@ -1,0 +1,8 @@
+.pricing_partial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0 50px 0;
+    border-bottom: 1px solid rgb(24, 24, 24);
+}

@@ -1,0 +1,37 @@
+.subscription__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    margin-top:60px;
+    background-color: #0d0d0d;
+    border:1px solid #232323;
+}
+
+.subscription__footer p{
+    margin-bottom: 40px;
+}
+
+
+.footer_extras{
+    display: flex;
+   margin-top: 50px;
+   padding: 20px;
+   border-radius: 2px;
+   background-color: rgb(20, 20, 20);
+   border:1px solid  rgb(29, 29, 29)
+}
+
+.footer_extras span{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.footer_extras span svg{
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+.footer_extras span path{
+  color:#6bd27e
+}

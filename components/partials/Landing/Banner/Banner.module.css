@@ -1,0 +1,30 @@
+.banner{
+    width: 100%;
+    display: flex;
+    padding : 180px 0 50px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+.banner_textcontent{
+    max-width: 900px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading_text{
+    font-size: 3.4rem;
+    line-height: 4rem;
+    margin: 0 auto;
+}
+
+.banner_description{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: rgb(242, 242, 248);
+}

@@ -1,0 +1,17 @@
+.contact_form{
+    width: 650px;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ .contact_form form{
+   width: 100%;
+ }
+ .divide__inputs{
+    display: flex;
+    justify-content: space-between;
+ }
+ .divide__inputs input{
+  width: 49.3%;
+ }

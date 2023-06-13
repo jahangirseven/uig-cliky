@@ -1,0 +1,39 @@
+.helpcenter__content{
+    width: 100%;;
+    display: flex;
+   background-color: rgba(24, 24, 24, 0.562);
+   border: 1px solid #eeeeee0e;
+}
+
+.right_slot{
+    width: 70%;
+    position: sticky;
+    padding: 30px;
+    box-sizing: border-box;
+ }
+
+.left_slot{
+    width: 30%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-right: 1px solid #eeeeee0f;
+}
+
+
+.left_slot ul{
+    list-style: none;
+    padding:  0;
+    margin: 0;
+}
+
+.left_slot ul li{
+padding: 10px 20px 20px 0;
+margin-bottom: 10px;
+border-bottom: 1px solid #eeeeee33;
+font-size: .9rem;
+}
+
+.left_slot ul li:hover{
+    transition: 300ms;
+   cursor: pointer;
+}

@@ -1,107 +1,190 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
-* {
-  box-sizing: border-box;
+body{
+  background-color: rgb(7 7 7);
+  color:#fff ; 
+  font-family: 'Jost';
   padding: 0;
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.content_limiter{
+  width: 100%;
+  max-width: 1170px ;
+  margin: 0 auto;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Button modifications */
+
+.br-2{
+  border-radius: 2px !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.br-3{
+  border-radius: 3px !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.br-4{
+  border-radius: 4px !important;
+}
+
+.br-5{
+  border-radius: 5px !important;
+}
+
+.btn-standard{
+  width: 120px;
+}
+
+.btn-large{
+  width: 140px;
+}
+ 
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn span{
+ height: auto;
+ line-height: 0;
+}
+
+
+.cover_buttons{
+  display: flex;
+}
+.cover_buttons button {
+  margin: 0 5px;
+}
+
+/* Light button*/
+.button__light{
+  background-color: #fff;
+  color:#000;
+  opacity: .9;
+}
+
+
+/* Text input dark */
+
+.input__dark{
+  background-color: rgba(0, 0, 0, 0.053);
+  color: #fff;
+  border-color: rgb(177, 177, 177);
+}
+.input__dark::placeholder{
+  color: rgba(255, 255, 255, 0.752);
+}
+
+/* Section text */
+.section_heading_text{
+  font-size: 2.8rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.section_description_text{
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Header styles */
+
+.sticky_header_enabled{
+  backdrop-filter: blur(8px);
+  background: #00000047;
+  border-bottom: 1px solid #0000001f;
+
+}
+
+
+.ant-timeline-item-tail{
+  background-color: #ffffff1f;
+}
+
+
+
+/* Margins */
+
+.mt10{
+  margin-top: 10px;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+.mt60{
+  margin-top: 60px;
+}
+
+
+/* paddings */
+
+.pd-90{
+  padding: 90px 0;
+}
+ 
+
+/* divider */
+
+.divider_line{
+  width: 100%;
+  display: block;
+  margin: 90px 0;
+  border-top:1px solid #232323
+}
+
+
+/* Inputs */
+
+.input_standard{
+  width: 100%;
+  padding: 18px 20px;
+  font-family: jost;
+  color: #fff;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: rgb(13, 13, 13);
+  border:2px solid rgb(17, 17, 17);
+  margin-bottom:10px
+}
+
+.textarea_extra{
+  height: 150px;
+}
+
+.section__leftTitle{
+  width: 100%;
+  font-weight:  300!important;
+  margin: 60px 0;
+  text-align: left;
+  position: relative;
+}
+
+.section__leftTitle::after{
+  content: '';
+  width: 85%;
+  height: 1px;
+  background-color: rgb(50, 50, 50);
+  position: absolute;
+  right: 0;
+  top:25px
+}
+
+
+ 
+
+.ant-switch {
+  background-color: rgb(28, 28, 28);
+}
+
+
+/* Moile menu */
+.mobilemenu__header_btn{
+  display: none;
+}
+.mobileMenu__container{
+  display: none;
 }

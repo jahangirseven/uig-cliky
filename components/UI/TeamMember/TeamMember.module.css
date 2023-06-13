@@ -1,0 +1,41 @@
+.team_member{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    border:1px solid rgb(31, 31, 31)
+}
+
+.team_member img{
+    border-radius: 100px;
+}
+
+.member_name{
+    margin:  10px auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.member_position{
+    margin-bottom: 10px;
+    font-size: .9rem;
+}
+
+.member_twitter{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    cursor: pointer;
+    opacity: .8;
+    color: rgb(78, 21, 237);
+}
+
+.member_twitter:hover{
+    opacity: 1;
+}

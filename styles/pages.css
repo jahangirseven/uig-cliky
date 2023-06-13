@@ -1,0 +1,136 @@
+.page__container{
+    padding:160px 0 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.page__entry_title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.page__entry_desc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 50px 0;
+    text-align: center;
+
+}
+ 
+/* Page limiter*/
+
+.page__limiter{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
+}
+
+.page__limiter.blogHome{
+    padding: 120px 0 0 0;
+}
+
+.ant-timeline{
+    width: 70%;
+}
+
+.ant-timeline *{
+    font-size:1.2rem;
+}
+
+
+/* single post page */
+
+.singlepost_page__postcontent{
+    width: 80%;
+    font-size: 1rem;
+    opacity: .8;
+    line-height: 2rem;
+    padding-bottom: 90px;
+  }
+  .singlepost_page__postcontent img{
+    max-width: 100%;
+    height: auto;
+    margin: 50px 0;
+  }
+  .singlepost_page__postcontent blockquote{
+    background-color: rgb(29, 29, 29);
+    padding: 40px;
+    box-sizing: border-box;
+    border-left:  4px solid rgb(132, 132, 132);
+  }
+
+
+  /* Form */
+
+  .user__form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 9);
+    border: 1px solid rgb(32, 32, 32);
+  }
+  .user__form label{
+    font-size: .9rem;
+    margin-bottom: 10px;
+  }
+
+  .user__form input,
+  .user__form textarea{
+    margin-top: 10px;
+ 
+  }
+
+
+  .user__form p {
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: .9rem;
+  }
+  .user__form p a{
+    color:  rgb(62, 19, 180);
+    text-decoration: none;
+  }
+
+  /* Contact form */
+
+  .contact__form{
+  width:900px !important;
+  }
+
+  .contact__form form{
+    width: 100%;
+    margin:  0 auto !important;
+  }
+
+
+  /* FAQ Contetn box */
+
+  .faq__contentBox{
+    font-size: 1rem;
+  }
+
+  .faq__contentBox h3{
+    font-size: 1rem;
+  }
+
+  .faq__contentBox p{
+    font-weight: 300;
+    opacity: .8;
+    margin-bottom: 50px;
+    line-height: 25px;
+   }
+
+   .faq__contentBox_title{
+    font-size: 2rem; 
+    margin:  0 0 50px 0;
+   }

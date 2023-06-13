@@ -1,0 +1,12 @@
+.team_block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team_member__list{
+    width: 100%;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+ }

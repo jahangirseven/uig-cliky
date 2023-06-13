@@ -1,0 +1,16 @@
+.pricing__block{
+    width: 100%;
+     padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .plan__choice{
+    display: flex;
+ }
+
+ .plan__choice button{
+    margin: 0 10px;
+ }
