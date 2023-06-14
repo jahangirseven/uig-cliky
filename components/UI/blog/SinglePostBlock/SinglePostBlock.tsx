@@ -46,7 +46,7 @@ function SinglePostBlock({thumbnail , title , categoryList, content , postMeta} 
         
          <div className={styles.postblock_meta}>
              <span className={styles.meta_author}>
-                <Image width={40} height={40} src={postMeta.author.thumbnail} />
+                <Image alt='author image' width={40} height={40} src={postMeta.author.thumbnail} />
                 <span>{postMeta.author.name}</span>
              </span>
 
