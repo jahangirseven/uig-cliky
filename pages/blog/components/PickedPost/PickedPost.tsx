@@ -23,7 +23,7 @@ interface SinglePostBlockProps{
 
 function PickedPost() {
     const [postData , setPostData] = useState<SinglePostBlockProps>({
-        thumbnail : picked_thumbnail,
+        thumbnail : picked_thumbnail.src,
         title : 'Boost Busiess Success' ,
         content : 'Maximize team productivity with proven task assignment techniques using our task management SaaS solution.',
         categoryList : ['IT', 'Blog', 'Startup'],
