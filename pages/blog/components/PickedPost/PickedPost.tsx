@@ -29,7 +29,7 @@ function PickedPost() {
         categoryList : ['IT', 'Blog', 'Startup'],
         postMeta : {
             author : {
-                thumbnail : author_thumbnail , 
+                thumbnail : author_thumbnail.src , 
                 name : 'Jahangir Seven'
             } , 
             publishDate : 'Jan 17, 2022',
@@ -59,7 +59,7 @@ function PickedPost() {
             
             <div className={styles.postblock_meta}>
              <span className={styles.meta_author}>
-                <Image width={50} height={50} src={postData.postMeta.author.thumbnail} />
+                <Image alt='thumbnail' width={50} height={50} src={postData.postMeta.author.thumbnail} />
                 <span>{postData.postMeta.author.name}</span>
              </span>
 
