@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './BoxedHeading.module.css'
 
 interface boxedHeadingProps{
-    title : string , 
-    style : string ,
-    bgColor : string , 
-    textColor : string , 
+    title? : string , 
+    style? : string ,
+    bgColor? : string , 
+    textColor? : string , 
 }
 
 function BoxedHeading({title,style='rounded',bgColor='#5d5dff',textColor='#fff'} : boxedHeadingProps) {
