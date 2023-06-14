@@ -24,7 +24,7 @@ function PricingBox({planName , price , description , featureList , planType} : 
  
         <ul className={styles.content__list}>
             {
-                featureList.map((feature:any)=>{
+                featureList?.map((feature:any)=>{
                     return            <li><CheckCircleOutlined />
                     {feature}
                 </li>
