@@ -9,7 +9,7 @@ interface SingleFeatureProps{
 
 function SingleFeature({icon , headingText , descriptionText} : SingleFeatureProps) {
   return (
-    <div className={styles.single__feature}>
+    <div className={`${styles.single__feature} elm_col_3`}>
         <span className={styles.step_icon}>{icon}</span>
         <h1>{headingText}</h1>
         <p>{descriptionText}</p>

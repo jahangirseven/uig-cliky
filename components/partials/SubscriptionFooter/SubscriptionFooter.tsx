@@ -5,7 +5,7 @@ import {AiFillCheckCircle} from 'react-icons/ai'
 import Link from 'next/link'
 function SubscriptionFooter() {
   return (
-    <section className={styles.subscription__footer}> 
+    <section className={` ${styles.subscription__footer} subscription__footer`}> 
      <h1 className='section_heading_text'>Ready to start with us ?</h1>
      <p className='section_description_text'>
      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br></br>deserunt mollit anim id est laborum consequat.

@@ -85,4 +85,44 @@
         padding: 0 !important;
         height: auto !important;
     }
+
+
+    /* action Footer block */
+    .subscription__footer{
+        padding: 40px  !important;
+        box-sizing: border-box;
+    }
+    .subscription__footer > div{
+         width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         
+    }
+    .subscription__footer > div > span{
+        padding: 10px 0;
+    }
+
+
+    /* Contact page */
+
+    .contact_page__form{
+        width: 95% !important;
+    }
+
+    /* Help center */
+
+    .helpcenter__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .helpcenter__content >div{
+        width: 100%;
+    }
+
+
 }
+
+

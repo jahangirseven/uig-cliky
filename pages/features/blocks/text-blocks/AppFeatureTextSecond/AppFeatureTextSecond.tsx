@@ -7,7 +7,7 @@ import { Button } from 'antd'
 function AppFeatureTextSecond() {
   return (
     <section className={styles.text_partial}>
-    <div className={styles.partial_limiter}>
+    <div className={`${styles.partial_limiter} textblock__item`}>
        <div className={styles.left_side}>
        <h3 className={styles.textpartial_badge_heading}>Hİgh performance</h3>
        <h2 className={styles.textpartial_heading}> Customizable templates</h2>

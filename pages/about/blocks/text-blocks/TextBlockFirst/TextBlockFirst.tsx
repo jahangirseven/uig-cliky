@@ -10,7 +10,7 @@ function TextBlockFirst() {
 
   return (
     <section className={styles.text_partial}>
-    <div className={styles.partial_limiter}>
+    <div className={`${styles.partial_limiter} textblock__item`}>
        <div className={styles.left_side}>
 
           <Image alt='img' src={field_image}/>

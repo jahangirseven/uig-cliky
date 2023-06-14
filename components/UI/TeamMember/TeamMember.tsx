@@ -10,7 +10,7 @@ interface TeamMemberProps{
 }
 function TeamMember({avatar , member_name , member_position , member_twitter} : TeamMemberProps) {
   return (
-    <div className={styles.team_member}>
+    <div className={`${styles.team_member} elm_col_3`}>
         <Image width={100} height={100} src={avatar} alt='Member avatar' />
         <h3 className={styles.member_name}>{member_name}</h3>
 

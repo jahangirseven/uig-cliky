@@ -12,7 +12,7 @@ function ContactForm() {
 
 
   return (
-    <div className={styles.contact_form}>
+    <div className={`${styles.contact_form} contact_page__form`}>
         
         <form className='user__form' onSubmit={handleSubmit(formSubmit)}>
         <label htmlFor='input__fullname'>Name

@@ -82,7 +82,7 @@ function TeamBlock() {
                    {
                     member_list.map(member=>{
                       return (<TeamMember key={member.id}
-                            avatar={member.avatar}
+                            avatar={member.avatar.src}
                             member_name={member.member_name} 
                             member_position={member.member_position}
                             member_twitter={member.member_twitter}

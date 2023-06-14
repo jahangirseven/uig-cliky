@@ -4,7 +4,6 @@ import BannerThumbnail from '@/components/blocks/AboutBanner/BannerThumbnail'
 import SubscriptionBox from '@/components/UI/SubscriptionBox/SubscriptionBox'
 import styles from './blog.module.css'
 import { singlePost } from '@/data/single_post'
-import bg_image from './../../public/images/blog'
 function SinglePostPage() {
   return (
     <SecondaryLayout pageTitle={`${singlePost.title}`}>

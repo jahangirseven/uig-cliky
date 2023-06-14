@@ -46,7 +46,7 @@ const pageList = [
                Get in touch with us today. We're here to assist you.
             </p>
 
-   <div className={styles.helpcenter__content}>
+   <div className={`${styles.helpcenter__content} helpcenter__content`}>
       <div className={styles.left_slot}>
          <h2>Choose a category</h2>
          <ul>
