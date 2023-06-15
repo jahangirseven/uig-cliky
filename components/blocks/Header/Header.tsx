@@ -49,8 +49,8 @@ function Header() {
 
 
          <div className={styles.header_toolbox}>
-         <Button type="link"><Link href='/register'>Sign up</Link></Button>
-         <Button type="primary" size='large' className='br-2 btn-standard'><Link href='/login'>Sign in</Link></Button>
+         <Button type="link" className='header_btn'><Link href='/register'>Sign up</Link></Button>
+         <Button type="primary"  size='large' className='br-2 btn-standard header_btn'><Link href='/login'>Sign in</Link></Button>
 
          <Button type="primary" size='large' className='br-2 mobilemenu__header_btn' onClick={switchMobileMenu}>
             {

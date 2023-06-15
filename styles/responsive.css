@@ -58,6 +58,11 @@
         justify-content: center !important;
         align-items: center;
     }
+
+    .postlist_container .single_blogpost {
+        width: 95% !important; 
+    }
+
     .single_blogpost{
         width: 60% !important ;
         margin-bottom: 40px;
@@ -66,7 +71,9 @@
         justify-content: center;
         align-items: center;
     }
-
+   .single_blogpost img{
+  max-width: 100% !important;
+   }
 
     /* video player */
 
@@ -151,6 +158,34 @@
     .page__entry_desc{
         font-size: 1rem !important;
     }
+
+
+    .header_btn{
+        display: none;
+    }
+
+    /* Features tabs */
+
+    .tab__links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab__links >span{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+ 
+    .tabcontent__image{
+        display: none !important;
+    }
+
+  
+    .tabcontent__self {
+       height: auto !important;
+    }
+
 }
 
 

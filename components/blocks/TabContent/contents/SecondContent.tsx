@@ -16,7 +16,7 @@ function SecondContent() {
                   <Button type='primary' className='btn-standard br-2' size='large'>Read more</Button>
               </div>
               
-              <div className={styles.tabcontent__right}>
+              <div className={`${styles.tabcontent__right} tabcontent__image`}>
                   <Image alt='image' 	fill={true} src={tab_image}/>
               </div> 
            </div>

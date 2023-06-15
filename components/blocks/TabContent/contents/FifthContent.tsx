@@ -7,7 +7,7 @@ function FifthContent() {
   return (
     <div className={styles.tabcontent_wrapper}>
     <div className={`${styles.tabcontent__self}  tabcontent__self`}>
-       <div className={styles.tabcontent__left}>
+       <div className={`${styles.tabcontent__left} tabcontent__image`}>
            <Image alt='image' 	fill={true} src={tab_image}/>
        </div>
        

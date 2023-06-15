@@ -44,7 +44,7 @@ function TabContent() {
   return (
 
      <div className={styles.tabcontent_self}>
-         <div className={styles.tab_buttons}>
+         <div className={`${styles.tab_buttons} tab__links`}>
             <span className={styles.single_tab} onClick={()=>{handleTabs(1)}}>Customizable Templates</span>
             <span className={styles.single_tab} onClick={()=>{handleTabs(2)}}>Multi-User Access</span>
             <span className={styles.single_tab} onClick={()=>{handleTabs(3)}}>Analytics Dashboard</span>
