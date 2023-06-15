@@ -123,6 +123,34 @@
     }
 
 
+    /* Text styles */
+
+    .banner__headingText{
+        font-size: 2.3rem !important;
+        line-height: 3.4rem !important
+    }
+
+
+    .page__entry_title{
+        font-size: 2rem !important;
+    }
+
+    .section_heading_text{
+        font-size: 2rem !important;
+    }
+
+    .section_description_text{
+        font-size: 1rem;
+    }
+
+
+    .textpartial_heading{
+        font-size: 2rem !important;
+    }
+
+    .page__entry_desc{
+        font-size: 1rem !important;
+    }
 }
 
 

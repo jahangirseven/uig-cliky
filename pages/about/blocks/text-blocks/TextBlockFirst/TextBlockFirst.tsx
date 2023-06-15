@@ -20,7 +20,7 @@ function TextBlockFirst() {
        <div className={styles.right_side}>
           
        <h3 className={styles.textpartial_badge_heading}>Modern automation</h3>
-          <h2 className={styles.textpartial_heading}>Automate Your Workflow and Boost Productivity</h2>
+          <h2 className={`${styles.textpartial_heading} textpartial_heading `}>Automate Your Workflow and Boost Productivity</h2>
           <p  className={styles.textpartial_description}>
 
             Are you searching for a powerful workflow automation solution to streamline and enhance your business operations? As a leading SaaS provider in the industry, Click offers a specially designed workflow automation platform to simplify and optimize your processes.

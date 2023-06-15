@@ -9,8 +9,8 @@ function AppFeatureTextSecond() {
     <section className={styles.text_partial}>
     <div className={`${styles.partial_limiter} textblock__item`}>
        <div className={styles.left_side}>
-       <h3 className={styles.textpartial_badge_heading}>Hİgh performance</h3>
-       <h2 className={styles.textpartial_heading}> Customizable templates</h2>
+       <h3 className={styles.textpartial_badge_heading}>High performance</h3>
+       <h2 className={`${styles.textpartial_heading} textpartial_heading`}> Customizable templates</h2>
           <p  className={styles.textpartial_description}>
           Tailor your workflows to fit your unique business needs with our customizable workflow templates. From project management to approvals and beyond, our solution offers a wide range of templates that can be easily adapted to match your organization's specific requirements.
           </p>

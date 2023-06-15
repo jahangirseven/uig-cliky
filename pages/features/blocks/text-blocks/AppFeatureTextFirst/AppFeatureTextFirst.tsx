@@ -17,7 +17,7 @@ function AppFeatureTextFirst() {
        <div className={styles.right_side}>
           
        <h3 className={styles.textpartial_badge_heading}>Modern automation</h3>
-            <h2 className={styles.textpartial_heading}>Workflow Automation</h2>
+            <h2 className={`${styles.textpartial_heading} textpartial_heading`}>Workflow Automation</h2>
             <p  className={styles.textpartial_description}>
               Our innovative solution empowers businesses with advanced workflow automation, streamlining processes and increasing efficiency. Experience seamless task management, real-time collaboration, and improved productivity like never before.
             </p> 

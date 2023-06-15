@@ -23,7 +23,7 @@ function AboutTextPartialSecond() {
        <div className={styles.right_side}>
           
        <h3 className={styles.textpartial_badge_heading}>Let's start with cliky</h3>
-          <h2 className={styles.textpartial_heading}>Say hello to research data</h2>
+          <h2 className={`${styles.textpartial_heading} textpartial_heading `}>Say hello to research data</h2>
 
           <p  className={styles.textpartial_description}>
                 Maecenas efficitur turpis turpis, sit amet sagittis nunc tristique ut. Proin sed venenatis

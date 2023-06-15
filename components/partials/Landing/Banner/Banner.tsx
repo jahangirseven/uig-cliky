@@ -9,8 +9,8 @@ function Banner() {
     <div className={styles.banner}>
           <div className={styles.banner_textcontent}>
             <BoxedHeading title='Let`s start your business now' bgColor='orange'/>
-                <h1 className={styles.heading_text}> Unleash the Potential of Your Business with our Innovative Tools</h1>
-                <p className={styles.banner_description}> 
+                <h1 className={`${styles.heading_text} banner__headingText`}> Unleash the Potential of Your Business with our Innovative Tools</h1>
+                <p className={`${styles.banner_description} banner_description`}> 
                 Power Your Business with our SaaS Platform. Streamline Workflows,<br></br> Drive Growth.  
                 Gain Insights  for Informed Decision-Making.<br></br> Stay Ahead. Experience Trusted SaaS Solutions.
                 </p>

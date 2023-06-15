@@ -19,7 +19,7 @@ function AboutTextPartial() {
            <div className={styles.right_side}>
               
            <h3 className={styles.textpartial_badge_heading}>Powerful manaagement app</h3>
-              <h2 className={styles.textpartial_heading}>Automate Tasks with Ease</h2>
+              <h2 className={`${styles.textpartial_heading} textpartial_heading `}>Automate Tasks with Ease</h2>
               <p  className={styles.textpartial_description}>
                  Simplify your workflow and boost productivity with our powerful SaaS platform. Automate tasks and efficiently manage 
                  your processes with ease. Experience streamlined operations and achieve optimal results.
