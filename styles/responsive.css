@@ -78,7 +78,7 @@
     /* video player */
 
     .videoplayer_container{
-        height:40vh !important;
+        height:45vh !important;
     }
 
 
@@ -189,3 +189,11 @@
 }
 
 
+
+
+
+@media screen and (max-width:500px){
+    .videoplayer_container{
+        height:30vh !important;
+    }
+}
