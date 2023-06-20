@@ -36,7 +36,7 @@ function PickedPost() {
     }});
 
   return (
-    <div className={styles.pickedPost}>
+    <div className={`${styles.pickedPost} pickedPost `}>
         <div className={styles.left_side}>
           <Image alt='Post thumbnail' width={550} height={400} src={postData.thumbnail} />
         </div>

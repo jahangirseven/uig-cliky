@@ -9,7 +9,7 @@ interface  BannerProps{
 function  BannerThumbnail({bg_image , title ,description} : BannerProps) {
 
     const style:any = {
-        "background-image" : `url(${bg_image})`
+      'backgroundImage' : `url(${bg_image})`
     }
 
   return (

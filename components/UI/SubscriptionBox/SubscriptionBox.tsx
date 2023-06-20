@@ -4,7 +4,7 @@ import { Input , Button } from 'antd';
 
 function SubscriptionBox() {
   return (
-    <div className={styles.subscription_box}>
+    <div className={`${styles.subscription_box} subscription_box`}>
       <div className={styles.subscription_box__self}>
           <div className={styles.left_slot}>
                 <h1>Stay in the loop</h1>
