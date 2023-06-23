@@ -71,7 +71,7 @@ function PricingBlock() {
              <Switch onChange={handlePlanChange} />
              Yearly
      </div>
-    <div className={styles.pricing__block}>
+    <div className={`${styles.pricing__block} pricing__block`}>
         {
             pricingDetails.map(data=>{
                 return (<PricingBox 

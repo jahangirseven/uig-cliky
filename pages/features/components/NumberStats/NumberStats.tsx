@@ -15,17 +15,17 @@ function NumberStats() {
 
             
           <div  className={styles.numberstats}>
-               <div className={styles.single_part}>
+               <div className={`${styles.single_part} elm_col_3`}>
                     <span className={styles.number}>93%</span>
                     <p className={styles.description}>Lorem ipsum is placeholder <br></br>text commonly used.</p>
                </div>
 
-               <div className={`${styles.single_part} ${styles.single_part__center}`}>
+               <div className={`${styles.single_part} ${styles.single_part__center} elm_col_3`}>
                     <span className={styles.number}>97%</span>
                     <p className={styles.description}>Lorem ipsum is placeholder <br></br>text commonly used.</p>
                </div>
 
-               <div className={styles.single_part}>
+               <div className={`${styles.single_part} elm_col_3`}>
                     <span className={styles.number}>95%</span>
                     <p className={styles.description}>Lorem ipsum is placeholder <br></br>text commonly used.</p>
                </div>

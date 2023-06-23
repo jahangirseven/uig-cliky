@@ -7,7 +7,7 @@ function ProcessSteps() {
  
 
   return (
-    <div className={styles.process_steps}>
+    <div className={`${styles.process_steps} normalize__padding section__process_steps`}>
       <BoxedHeading title='Why you shuld select us'/>
          <h1 className='section_heading_text'>The Essential Trio: Our Top 3 Features</h1>
          <p className='section_description_text'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br></br> deserunt mollit laborum — semper quis lectus nulla.</p>

@@ -8,11 +8,8 @@ import { Timeline } from 'antd';
 function AboutTextPartialSecond() {
   return (
     <>
-    
- 
-
          
-    <section className={styles.text_partial}>
+    <section className={`${styles.text_partial} normalize__padding`}>
     <div className={`${styles.partial_limiter} textblock__item`}>
        <div className={styles.left_side}>
 

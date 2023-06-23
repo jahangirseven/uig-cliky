@@ -37,7 +37,7 @@ function index() {
                  <PickedPost />
 
                  <h1 className='section__leftTitle'>Latest posts</h1>
-                 <div className={styles.posts_container}>
+                 <div className={`${styles.posts_container} blogpage_postListContainer `}>
                   
                   {
                       postList.map(post=>{

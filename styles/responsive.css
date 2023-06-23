@@ -3,6 +3,11 @@
     width: 90%;
    }
 
+   .divider_line{
+     margin: 40px 0;
+   }
+
+
    .app_footer > div{
     width: 90% !important;
    }
@@ -86,16 +91,50 @@
    }
 
 
+
+   .blogpage_postListContainer  {
+     width: 90% !important;
+   }
+   
+
+   .blogpage_postListContainer .single_blogpost {
+    width: 100% !important;
+  }
+
+
 .pickedPost{
+    width: 90% !important;
     flex-direction: column;
 }
 
 .pickedPost >div{
     width: 100%;
+    padding: 20px !important;
+    box-sizing: border-box;
 }
 
 .pickedPost img{
     max-width: 100%;
+    height: auto;
+    transform: scale(1) !important;
+}
+
+
+/* Process steps */
+.section__process_steps .elm_col_3>span::after{
+   display: none;
+}
+
+/*ROund progress bar*/
+.textblock__item .ant-progress.ant-progress-circle{
+    width: 24%;
+    transform: scale(0.8);
+    margin-right: 20px !important;
+}
+ 
+/* ANT Timeline */
+.ant-timeline *{
+   font-size: .9rem !important;
 }
 
 
@@ -173,7 +212,7 @@
     }
 
     .section_heading_text{
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
     }
 
     .section_description_text{
@@ -246,6 +285,24 @@
         box-sizing: border-box !important;
         margin: 10px 0 0 0  !important;
      }
+
+
+     /* Normalize padding */
+
+     .normalize__padding{
+        padding: 40px 0 !important;
+     }
+
+     .pricing__block .pricing_box:last-child{
+        margin-bottom: 0 !important;
+     }
+
+     /* General page styles */
+
+     .page__container img{
+        max-width: 100%;
+        height: auto;
+     }
 }
 
 
@@ -254,4 +311,24 @@
     .videoplayer_container{
         height:30vh !important;
     }
+ .ant-timeline-item-tail{
+    font-size: 1rem;
+ }
+
+ .single_blogpost div div img{
+    display: none;
+ }
+
+ .page__limiter{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+blockquote{
+    width: 100%;
+    padding: 25px !important;
+    margin: 30px auto;
+}
+
 }
