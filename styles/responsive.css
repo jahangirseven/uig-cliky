@@ -303,11 +303,16 @@
         max-width: 100%;
         height: auto;
      }
+
+     
 }
 
 
 
 @media screen and (max-width:500px){
+    .jobs__content{
+        padding: 10px !important    ;
+    }
     .videoplayer_container{
         height:30vh !important;
     }
@@ -331,4 +336,9 @@ blockquote{
     margin: 30px auto;
 }
 
+
+.user__form{
+    max-width: 100%;
+    padding:25px
+}
 }
