@@ -15,8 +15,8 @@ interface singleJobProps{
 
 function JobModal({job_id, job_title , job_type , job_description , modal_status , setModalStatus, job_requirements} : singleJobProps) {
   return (
-    <section className={styles.modal__layer} onClick={()=>{setModalStatus(false)}}>
-        <div className={`${styles.modal__self} job__modal`}>
+    <section className={styles.modal__layer} onClick={(e)=>{ e.stopPropagation(); setModalStatus(false)}}>
+        <div className={`${styles.modal__self} job__modal`} onClick={(e)=>{ e.stopPropagation();}}>
           <h1 className={styles.job__title}>{job_title} <span style={{fontWeight :400}}>[{job_type}]</span> </h1>
           <p>
             {job_description}

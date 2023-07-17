@@ -33,13 +33,13 @@ function SingleJob({job_id, job_title , job_type , job_description , job_require
        {
         modalStatus &&
          <JobModal
-         job_id={job_id}
-          job_title={job_title}
-          job_description={job_description}
-          job_type={job_type}
-          modal_status={modalStatus}
-          setModalStatus={setModalStatus}
-          job_requirements={job_requirements}
+            job_id={job_id} 
+            job_title={job_title}
+            job_description={job_description}
+            job_type={job_type}
+            modal_status={modalStatus}
+            setModalStatus={setModalStatus}
+            job_requirements={job_requirements}
          />
        }
     </div>
